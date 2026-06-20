@@ -9,21 +9,6 @@ detects suspicious behavior (brute force attacks, malicious IPs,
 abnormal access), and displays results in an interactive web dashboard
 built with Flask and Chart.js.
 
-## Project Structure
-
-LogAnalyser/
-├── logs/
-│   ├── auth.log
-│   └── access.log
-└── src/
-    ├── app.py          # Flask application (routes, dashboard)
-    ├── parser.py       # Log file parsing with regex
-    ├── analyzer.py     # Anomaly detection logic
-    ├── alerts.py       # Alert generation and severity classification
-    ├── config.py       # Global configuration (paths, thresholds)
-    └── templates/
-        └── dashboard.html  # Web interface (Chart.js)
-
 ## Requirements
 
 - Python 3.x
